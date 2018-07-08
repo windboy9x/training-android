@@ -1,4 +1,4 @@
-package com.example.admin.demo_lap11;?trtertertretertert
+package com.example.admin.demo_lap11;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
