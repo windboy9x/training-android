@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f8f8f8"
+        >
+
+        <ImageView
+            android:id="@+id/imgLstCar"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_car" />
+
+        <TextView
+            android:id="@+id/nameLstCar"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Honda"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#ececec"/>
+
+    </LinearLayout>
+
+</LinearLayout>

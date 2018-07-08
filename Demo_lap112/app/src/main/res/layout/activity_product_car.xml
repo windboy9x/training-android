@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductCar">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/footer">
+
+        <GridView
+            android:id="@+id/list_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:padding="5dp">
+
+        </GridView>
+
+
+
+    <GridView
+        android:layout_below="@+id/list_car"
+        android:id="@+id/list_product_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:padding="5dp">
+
+    </GridView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <!-- Đây là Footer -->
+
+
+    <TableLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#d4d4d4"
+        android:gravity="center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:textAlignment="center">
+
+        <TableRow>
+
+            <ImageView
+
+                android:id="@+id/ic_foodter_bag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_footer_bag" />
+
+            <ImageView
+                android:id="@+id/ic_foodter_shop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_footer_shop" />
+
+            <ImageView
+                android:id="@+id/ic_foodter_bell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_footer_bell" />
+
+            <ImageView
+                android:id="@+id/ic_foodter_envelope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_footer_envelope" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Cửa hàng" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Giỏ hàng" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Thông báo" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Đơn hàng" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+
+    <!-- android:width chiều rộng nét vẽ;
+    android:color màu nét vẽ;
+    android:dashGap độ dài khoảng trống để tạo nét đứt;
+    android:dashWidth độ dài nét đứt -->
+
+    <stroke
+        android:width="2dp"
+        android:color="#d4d4d4"
+        android:dashGap="10dp"
+        android:dashWidth="7dp"
+        >
+
+    </stroke>
+    <solid android:color="#ffff"></solid>
+
+</shape>
